@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: url('https://i.pinimg.com/originals/ae/70/9f/ae709f9b02279edc656237157ad40758.jpg');
+  background-size: cover;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+
+
+  .App-title {
+      font-size: 1.5em;
+   transform: translate(-70%, 90%);
+      display: inline-block;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
